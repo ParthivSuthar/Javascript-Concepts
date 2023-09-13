@@ -49,4 +49,22 @@ let str3 = str1 + str2
 let gambar = 500
 gambar++
 
-console.log(gambar);
+// console.log(gambar);
+
+let a = 3
+let b = 5
+
+// console.log(a++);
+// console.log(++b);
+
+
+let x = 5
+const y = x++
+const z = ++x
+
+console.log(x);
+console.log(y);
+console.log(z);
+
+
+
