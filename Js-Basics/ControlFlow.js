@@ -5,9 +5,9 @@
 
 // => If
 
-// // if(true) {
-//     // Execute if (condition) is true
-// }
+// if(true) {
+    // Execute if (condition) is true
+}
 
 // // if(false) {
 //     // Didnt Execute, if (condition) is false
@@ -30,28 +30,28 @@
 // Example 👇
 
 if(2 == "2"){
-    // console.log("Executed");
+    console.log("Executed");
 }
 
 
 // Not Executed
 
 if (2 != "2") {
-    // console.log("Executed");
+    console.log("Executed");
 }
 
 
 // Anti Inequality
 
 if (2 !== "2") {
-    // console.log("Execute this Inequaltiy");
+    console.log("Execute this Inequaltiy");
 }
 
 
 // Strict Equality 
 
 if (2 === 2) {
-    // console.log("Check Strick Equality");
+    console.log("Check Strick Equality");
 }
 
 
@@ -60,9 +60,9 @@ if (2 === 2) {
 const temperature = 50
 
 if (temperature > 100) {
-    // console.log("Too Hot");
+    console.log("Too Hot");
 }
-// console.log("Hot");         // It will 100% Execute, whether True or False
+console.log("Hot");         // It will 100% Execute, whether True or False
 
 
 // If and Else
@@ -70,9 +70,9 @@ if (temperature > 100) {
 const run = 120
 
 if (run > 1000) {
-    // console.log("Not so high");
+    console.log("Not so high");
 } else {
-    // console.log("It is low score");
+    console.log("It is low score");
 }
 
 
@@ -82,7 +82,7 @@ const score = 20
 
 if (score > 10) {
     const power = "fly"
-    // console.log(`User Power : ${power}`); // Executed inside
+    console.log(`User Power : ${power}`); // Executed inside
 }
 
 
@@ -92,9 +92,9 @@ const number = 10
 
 if(number > 5) {
     const hello = "buddy"
-    // console.log(`Hello ${hello}`);
+    console.log(`Hello ${hello}`);
 }
-// console.log(`Hello ${hello}`);        // Not Execute this(Outside)
+console.log(`Hello ${hello}`);        // Not Execute this(Outside)
 
 
 
@@ -105,15 +105,15 @@ const no = 230
 
 if (no > 100) {
     var hello = "buddy"
-    // console.log(`Hello ${hello}`);
+    console.log(`Hello ${hello}`);
 }
-// console.log(`Hello ${hello}`);
+console.log(`Hello ${hello}`);
 
 
 // Shorthand Notation 😀
 
 const apple = 2
-// if(apple > 0) console.log("I have 2 apples");
+if(apple > 0) console.log("I have 2 apples");
 
 
 // This is called "Implicit Scope" ☝️
@@ -122,7 +122,7 @@ const apple = 2
 
 // Bad Practice and Not Recommeded to Write ❌
 const balance = 1000
-// if(balance > 3) console.log("Yes"), console.log("No");
+if(balance > 3) console.log("Yes"), console.log("No");
 
 
 // Multiple Conditions
@@ -130,13 +130,13 @@ const balance = 1000
 const numeric = 1200
 
 if (numeric > 2000) {
-    // console.log("greater than 2000");
+    console.log("greater than 2000");
 } else if (numeric > 1500) {
-    // console.log("greater than 1500");
+    console.log("greater than 1500");
 } else if (numeric > 1000) {
-    // console.log("greater than 1000");
+    console.log("greater than 1000");
 } else {
-    // console.log("greater than itself");
+    console.log("greater than itself");
 }
 
 
@@ -147,7 +147,7 @@ const userLoggedin = true
 const userDebitCard = true
 
 if (userLoggedin && userDebitCard) {
-    // console.log("Allow to Buy");
+    console.log("Allow to Buy");
 }
 
 // 🔴 Note : Here both conditions must be true, if anyone is false, it will not give output.
@@ -160,7 +160,7 @@ const userLoggedFromEmail = true
 const userLoggedFromGoogle = false
 
 if (userLoggedFromEmail || userLoggedFromGoogle) {
-    // console.log("You are Logged in");
+    console.log("You are Logged in");
 }
 
 // 🔴 Note : If any one condition should true, it will give output
@@ -174,15 +174,15 @@ const month = 3
 
 switch(month) {
     case 1:
-        // console.log("jan");
+        console.log("jan");
         break;
         
     case 2:
-        // console.log("feb");
+        console.log("feb");
         break;
 
     case 3:
-        // console.log("Mar");
+        console.log("Mar");
         break;
 }
 
@@ -194,10 +194,10 @@ const name = "rah"
 
 switch (name) {
     case "ram":
-        // console.log("Ramesh");
+        console.log("Ramesh");
         break;
     case "rah":
-        // console.log("Rahul");
+        console.log("Rahul");
         break;
     default:
         break;
@@ -216,9 +216,9 @@ switch (name) {
 const helloG = "buddy"
 
 if (helloG) {
-    // console.log("Hello kaise Ho");
+    console.log("Hello kaise Ho");
 } else {
-    // console.log("Bye");
+    console.log("Bye");
 }
 
 
@@ -226,9 +226,9 @@ if (helloG) {
 const symbol = ""
 
 if (symbol) {
-    // console.log("This is Symbol");
+    console.log("This is Symbol");
 } else {
-    // console.log("Not a Symbol"); 
+    console.log("Not a Symbol"); 
 }
 
 
@@ -237,7 +237,7 @@ if (symbol) {
 const emptyObj = {}
 
 if (Object.keys(emptyObj). length === 0) {
-    // console.log("Object is Empty");
+    console.log("Object is Empty");
 }
 
 // Object.keys(emptyObj). -> this gives Array of Object
@@ -251,14 +251,14 @@ if (Object.keys(emptyObj). length === 0) {
 
 let pal;
 pal = 10 ?? 20
-// console.log(pal);        // Gives 10
+console.log(pal);        // Gives 10
 
 
 
 // But for Null Value 👇
 let pal2;
 pal2 = null ?? 20
-// console.log(pal2);              // Gives 20
+console.log(pal2);              // Gives 20
 
 
 
@@ -281,7 +281,7 @@ console.log(gig);           //Gives 1st Value only
 // condition ? true : false
 
 const iceCream = 20
-// iceCream > 10 ? console.log("very good"): console.log("not good");
+iceCream > 10 ? console.log("very good"): console.log("not good");
 
 
 
